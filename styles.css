@@ -1,0 +1,121 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    margin-top: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #a36a4e;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #a36a4e;
+    font-weight: bolder;
+   
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #a36a4e;
+    font-weight: bold;
+}
+p{
+    line-height: 2;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.top-container{
+    background-color:#f0cdb3;
+    position: relative;
+    padding-top: 100px;
+
+}
+.top-cloud{
+    display:block;
+    position:absolute;
+    right: 200px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+    width: 200px;
+    height: 200px;
+}
+.pp{
+    position: absolute;
+    left:543px;
+    bottom:195px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code{
+    width: 25%;
+    padding-top: 10px;
+    float: left;
+    padding-right: 30px;
+}
+.paint{
+        width: 25%;
+        padding-top: 10px;
+        float: right;
+        padding-left: 30px;  
+}
+
+a{
+    color: #a36a4e;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+a:hover{
+    color: #eaf6f6;
+}
+hr{
+    width: 10%;
+    border: none;
+    border-top: 1px dotted #f0cdb3;
+    border-width: 10px;
+    margin: 100px auto 100px auto;
+}
+.bottom-container{
+    
+    background-color: #f0cdb3;
+    padding: 50px 0 20px;
+    margin: 50px auto 0 auto;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background:  #a36a4e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f0cdb3;
+    text-decoration: none;
+  }
